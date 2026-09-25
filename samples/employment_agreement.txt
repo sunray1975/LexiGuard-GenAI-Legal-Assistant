@@ -1,0 +1,21 @@
+EXECUTIVE EMPLOYMENT AGREEMENT
+
+This Executive Employment Agreement ("Agreement") is made effective as of November 15, 2026, by and between Apex Systems Global Inc. ("Company") and Jane Doe ("Employee").
+
+SECTION 1: POSITION AND DUTIES
+Employee shall serve as Vice President of AI Engineering. Employee agrees to devote full business time, attention, and efforts to the performance of duties assigned by the Chief Executive Officer.
+
+SECTION 2: COMPENSATION AND BENEFIT
+Company shall pay Employee a base salary of $180,000 per annum. Annual performance bonuses are discretionary and subject to Board approval. Health insurance and 401(k) matching benefits shall commence after ninety (90) days of continuous service.
+
+SECTION 3: INTELLECTUAL PROPERTY ASSIGNMENT
+Employee acknowledges that all inventions, software code, algorithms, prompts, architecture designs, and technical documents created by Employee during the period of employment, whether during business hours or on personal devices, shall be the sole and exclusive property of Company ("Work for Hire").
+
+SECTION 4: TERMINATION AT-WILL AND SEVERANCE
+Either party may terminate employment at any time with or without cause upon written notice. If Employee is terminated without cause, Employee shall receive two (2) weeks of severance pay, provided Employee signs a full release of all legal claims against Company.
+
+SECTION 5: NON-COMPETITION AND RESTRICTIVE COVENANTS
+For a period of twenty-four (24) months following termination of employment for any reason, Employee shall not work for, advise, consult with, or own any equity in any direct competitor of Company in the Artificial Intelligence, Machine Learning, or SaaS domain worldwide.
+
+SECTION 6: ARBITRATION MANDATE
+Any dispute, controversy, or claim arising out of or relating to this Agreement shall be settled by binding arbitration in accordance with the Commercial Arbitration Rules of the American Arbitration Association (AAA). Employee waives any right to a trial by jury or participation in a class-action lawsuit.

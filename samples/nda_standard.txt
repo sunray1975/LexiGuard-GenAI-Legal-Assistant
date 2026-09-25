@@ -1,0 +1,21 @@
+MUTUAL NON-DISCLOSURE AND CONFIDENTIALITY AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of October 1, 2026 ("Effective Date"), by and between TechCorp Solutions LLC ("Disclosing Party") and NextGen Innovations Inc. ("Receiving Party").
+
+1. CONFIDENTIAL INFORMATION
+For purposes of this Agreement, "Confidential Information" shall include all information or material that has or could have commercial value or other utility in the business in which Disclosing Party is engaged. If Information is in written form, the Disclosing Party shall label or stamp the materials with the word "Confidential" or some similar warning.
+
+2. OBLIGATIONS OF RECEIVING PARTY
+Receiving Party shall hold and maintain the Confidential Information in strictest confidence for the sole and exclusive benefit of the Disclosing Party. Receiving Party shall restrict access to Confidential Information to employees, contractors, and third parties who need to know such information.
+
+3. INDEMNIFICATION AND UNLIMITED LIABILITY
+Receiving Party agrees to indemnify, defend, and hold harmless Disclosing Party from any and all claims, damages, liabilities, losses, costs, and expenses (including attorneys' fees) arising out of any breach of this Agreement. Receiving Party's liability under this Agreement shall be UNLIMITED for any disclosure of Confidential Information.
+
+4. NON-SOLICITATION AND NON-COMPETE
+During the term of this Agreement and for a period of three (3) years thereafter, Receiving Party shall not directly or indirectly solicit, recruit, or hire any employees or consultants of Disclosing Party, nor engage in any competing business operations within North America or Asia.
+
+5. GOVERNING LAW AND JURISDICTION
+This Agreement shall be construed and enforced in accordance with the laws of the State of Delaware, without regard to its conflict of laws principles. Any dispute arising under this Agreement shall be resolved exclusively in state or federal courts located in Wilmington, Delaware.
+
+6. TERMINATION
+Disclosing Party may terminate this Agreement at any time with five (5) days' written notice. Receiving Party must immediately return or destroy all materials within twenty-four (24) hours of termination.

@@ -1,0 +1,16 @@
+MASTER SERVICES AGREEMENT (VENDOR VERSION B - REVISED HEAVY AMENDMENT)
+
+1. SERVICE SCOPE
+Vendor shall provide Cloud Infrastructure Operations and Maintenance services as outlined in Statement of Work #1. Scope additions may be requested by Vendor without prior Client consent.
+
+2. PAYMENT TERMS
+Client shall pay all invoices within ten (10) days of receipt. Late payments shall incur a penalty fee of 5.0% per week.
+
+3. UNILATERAL LIMITATION OF LIABILITY
+Vendor's total aggregate liability under this Agreement is strictly capped at $1,000 USD. Client's liability to Vendor remains unlimited for any breach or indemnification claim.
+
+4. SERVICE LEVEL AGREEMENT (SLA)
+Vendor aims for 95.0% uptime on a best-effort basis. SLA breaches shall not entitle Client to any monetary or invoice credits.
+
+5. TERMINATION RESTRICTION
+Client may not terminate this Agreement for convenience prior to the 36-month initial term. Vendor may terminate immediately with 24 hours notice.

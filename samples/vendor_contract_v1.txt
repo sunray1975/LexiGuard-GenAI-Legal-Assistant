@@ -1,0 +1,16 @@
+MASTER SERVICES AGREEMENT (VENDOR VERSION A - STANDARD)
+
+1. SERVICE SCOPE
+Vendor shall provide Cloud Infrastructure Operations and Maintenance services as outlined in Statement of Work #1.
+
+2. PAYMENT TERMS
+Client shall pay all undisputed invoices within thirty (30) days of receipt. Late payments shall incur a interest charge of 1.5% per month.
+
+3. LIMITATION OF LIABILITY
+Neither party's total liability under this Agreement shall exceed the total fees paid by Client to Vendor in the twelve (12) months preceding the claim.
+
+4. SERVICE LEVEL AGREEMENT (SLA)
+Vendor guarantees 99.9% uptime for core infrastructure services. In the event of an SLA breach, Client is entitled to a 10% invoice credit for the affected month.
+
+5. TERMINATION FOR CONVENIENCE
+Either party may terminate this Agreement by providing sixty (60) days prior written notice to the other party.
