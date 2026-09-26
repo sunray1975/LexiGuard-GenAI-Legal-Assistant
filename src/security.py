@@ -1,11 +1,16 @@
 import re
 import html
+import hashlib
+import logging
 from typing import Dict, Any, Tuple
+from src.config import PromptInjectionError
+
+logger = logging.getLogger("LexiGuardAI.Security")
 
 class LegalSecurityManager:
     """
     Enterprise Security Manager for Legal Document Processing.
-    Handles PII Redaction, Prompt Injection Prevention, and XSS Sanitization.
+    Handles PII Redaction, Prompt Injection Defense, SHA-256 Audit Integrity, and XSS Sanitization.
     """
 
     # Regex patterns for sensitive PII
@@ -25,6 +30,11 @@ class LegalSecurityManager:
     ]
 
     @staticmethod
+    def calculate_sha256(text: str) -> str:
+        """Calculates SHA-256 hash of document text for security auditing."""
+        return hashlib.sha256(text.encode('utf-8')).hexdigest()
+
+    @staticmethod
     def sanitize_input_text(text: str) -> str:
         """Sanitizes raw text to prevent XSS attacks."""
         if not text:
@@ -35,7 +45,12 @@ class LegalSecurityManager:
     def redact_pii(cls, text: str) -> Tuple[str, Dict[str, int]]:
         """
         Redacts Personally Identifiable Information (PII) before LLM submission.
-        Returns redacted text and count of redacted elements.
+
+        Args:
+            text (str): Input text containing potential PII.
+
+        Returns:
+            Tuple[str, Dict[str, int]]: Redacted text and counts of redacted elements.
         """
         redacted = text
         counts = {"emails": 0, "phones": 0, "ssns": 0, "cards": 0}
@@ -56,16 +71,23 @@ class LegalSecurityManager:
         counts["cards"] = len(cards)
         redacted = re.sub(cls.CREDIT_CARD_PATTERN, "[REDACTED_CARD]", redacted)
 
+        logger.info(f"PII Redaction completed: {sum(counts.values())} items scrubbed")
         return redacted, counts
 
     @classmethod
     def validate_prompt_safety(cls, prompt_text: str) -> Tuple[bool, str]:
         """
         Scans input for malicious prompt injection attempts.
-        Returns (is_safe, message).
+
+        Args:
+            prompt_text (str): User prompt query.
+
+        Returns:
+            Tuple[bool, str]: (is_safe, message).
         """
         lower = prompt_text.lower()
         for pattern in cls.INJECTION_PATTERNS:
             if re.search(pattern, lower):
+                logger.warning(f"Security Alert: Prompt injection pattern '{pattern}' blocked.")
                 return False, f"Potential prompt injection detected: matching pattern '{pattern}'"
         return True, "Safe"

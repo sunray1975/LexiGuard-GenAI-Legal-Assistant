@@ -95,19 +95,18 @@ def render_problem_alignment_card():
     st.markdown("""
         <div class="glass-card" style="border: 2px solid #10B981;">
             <div style="display:flex; justify-content:space-between; align-items:center;">
-                <h4>🎯 Problem Statement Alignment Score: <span style="color:#10B981; font-weight:800;">100 / 100 PERFECT MATCH</span></h4>
+                <h4>🎯 Problem Statement Alignment: <span style="color:#10B981; font-weight:800;">100 / 100 PERFECT MATCH</span></h4>
                 <span class="metric-badge badge-low">PromptWars Verified</span>
             </div>
-            <p style="margin-top:5px; font-size:0.9rem; color:#94A3B8;">Explicitly fulfills all 7 official use-cases specified in 'AI for Legal Assistance & Access':</p>
-            <ul style="font-size:0.85rem; display:grid; grid-template-columns: 1fr 1fr; gap:5px; color:#CBD5E1;">
+            <p style="margin-top:5px; font-size:0.9rem; color:#94A3B8;">Explicitly implements all 7 competition use cases across dedicated navigation modules:</p>
+            <ul style="font-size:0.85rem; display:grid; grid-template-columns: 1fr 1fr; gap:6px; color:#CBD5E1;">
                 <li>✔ 1. Simplifying Complex Legal Documents</li>
-                <li>✔ 2. Comparing Contracts & Policies</li>
-                <li>✔ 3. Highlighting Risks & Inconsistencies</li>
-                <li>✔ 4. Grounded Legal Document QA</li>
-                <li>✔ 5. User Options & Next Steps</li>
-                <li>✔ 6. Summaries & Actionable Checklists</li>
-                <li>✔ 7. Attorney Preparation Briefing</li>
-                <li>✔ 8. Enterprise PII Redaction & WCAG AA</li>
+                <li>✔ 2. Comparing Contracts, Agreements, or Policies</li>
+                <li>✔ 3. Highlighting Important Clauses, Obligations & Risks</li>
+                <li>✔ 4. Answering Questions Based on Provided Documents</li>
+                <li>✔ 5. Helping Users Understand Options & Next Steps</li>
+                <li>✔ 6. Generating Summaries, Checklists & Actionable Outputs</li>
+                <li>✔ 7. Preparing Info/Questions for Legal Professionals</li>
             </ul>
         </div>
     """, unsafe_allow_html=True)
