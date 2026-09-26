@@ -90,7 +90,6 @@ As required by the **PromptWars Submission Guidelines**, below is the explicit a
 03_LexiGuard_GenAI_Legal_Assistant/
 ├── README.md                      # Comprehensive documentation (<10 MB compliant)
 ├── requirements.txt               # Dependencies (streamlit, google-generativeai, plotly, etc.)
-├── VIDEO_SCRIPT.md                # Strictly < 4-minute demo video script
 ├── app/                           # Streamlit Web Control Tower UI
 │   ├── main.py                    # Multi-tab Streamlit dashboard
 │   └── components.py              # Dark theme CSS, metrics, gauge charts, architecture cards
